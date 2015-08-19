@@ -1,0 +1,185 @@
+
+html {
+    height: 100%;
+}
+
+body {
+     font-family: sans-serif;
+     background-color: black;
+     height: 100%;
+
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: black;
+}
+
+#logo {
+    width: 40%;
+    height: 35px;
+    margin: .5em;
+    float: left;
+/*    background-color: red;*/
+    color: white;
+    display: block;
+}
+
+#logo h1 {
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+#nav-controls {
+    width: 55%;
+    height: 20px;
+    margin: .5em%;
+    padding-top: 15px;
+
+/*    background-color: blue;*/
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+#nav-controls p {
+    float: left;
+    display: inline;
+    }
+
+#nav-controls a {
+    font-size: 12px;
+    color:gray;
+    float: left;
+    display: inline;
+}
+
+#nav-controls a:hover {
+    color: gray;
+}
+
+
+#map-canvas { 
+        height: 100%;
+        width: 60%;
+        float: left;
+    } 
+
+#photos {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    left-margin: 40px;
+    padding: 0;
+    overflow: scroll;
+}
+
+.imageBox {
+    height: 120px;
+    /*width: 120px;*/
+    padding: 0px 2px;
+    margin: 0;
+}
+
+.overState {
+    border: 5px solid white;
+}
+
+
+#infoBox {
+    /*width: 320px;*/
+    width: 100%;
+    margin-right: -50px;
+    padding: 0;
+}
+
+#infoBox p {
+    /*width: 100%;*/
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    float: left;
+}
+
+#infoBox a {
+    margin-left: 10px;
+}
+
+#infoBox img {
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+    padding: 0;
+
+}
+
+
+.fancybox img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 700px)  { 
+
+/* Mobile  Styles */
+
+
+#logo {
+    margin: 2% 5% 0 5%;
+}
+
+
+#nav-controls {
+    clear: left;
+    margin: 0 5% 1% 5%;
+}
+
+#map-canvas { 
+        height: 300px;
+        width: 90%;
+        margin: 0 5%;
+        clear: left;
+    }
+
+#photos {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.imageBox {
+    height: 100px;
+}
+
+#infoBox {
+    width: 190px;
+    height: 150px;
+    padding: 0;
+    
+}
+
+#infoBox p {
+    font-size: 12px;
+    height: 20px;
+    color: #999999;
+}
+
+#infoBox img {
+    height: 100px;
+    margin: 2px auto;
+    padding: 0;
+
+}
+
+
+
+
+}
